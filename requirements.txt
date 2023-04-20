@@ -1,5 +1,4 @@
 scikit-learn
 jsonify
 matplotlib
-uvicorn==0.16.2
-uvloop>=0.16.0
+pandas
