@@ -4,6 +4,7 @@ This repository contains the example and sample files to deploy a Binary Classif
 
 ## Prerequisites for Deployment:
 
+**Note** : You need to fork the repository to deploy it on Katonic Platform
 
 - `launch.py`: This file consists of `loadmodel`, `preprocessing` and `predict` functions.
  The first function helps to fetch the model. The second function is optional,if you are performing any kind of preprocessing on the data before prediction please add all the necessary steps into it and return the formatted input, else you can just return `False` if no processing is required. In the third function write down the code for prediction and return the results in the data structure supported by API response.   
