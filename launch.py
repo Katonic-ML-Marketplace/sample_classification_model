@@ -9,7 +9,7 @@ import json
 
 
 def loadmodel(logger):
-    """Get model from cloud object storage."""
+    """Get the model"""
     TRAINED_MODEL_FILEPATH = f"model/model_pkl"
     logger.info(f"model path:{TRAINED_MODEL_FILEPATH}")
     logger.info("loading model")
